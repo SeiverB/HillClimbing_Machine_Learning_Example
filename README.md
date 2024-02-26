@@ -6,11 +6,11 @@ The AI was trained offline using a hill-climbing algorithm, along with the princ
 The AI was run through well over 1000000 iterations, with different learning methods being manually tuned 
 along the way to produce an optimal result.
 
-The AI was found to run best with the following 4 parameters:
-    Alpha[0] is inversed, and multiplied with the distance to the next pipe.
-    Beta[1] is multiplied with the difference between the circle's y position, and the bottom pipe's y position
-    Delta[2] is the same as Beta, but the difference is squared.
-    Epsilon[3] is multiplied with the velocity  
+The AI was trained to a near-perfect state with the following 4 parameters:
+- Alpha[0] is inversed, and multiplied with the distance to the next pipe.
+- Beta[1] is multiplied with the difference between the circle's y position, and the bottom pipe's y position
+- Delta[2] is the same as Beta, but the difference is squared.
+- Epsilon[3] is multiplied with the velocity  
 
 The parameters are also multiplied or divided by some factor of ten so that their final values end up
 being in a similar range to eachother

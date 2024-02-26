@@ -15,6 +15,8 @@ The AI was trained to a near-perfect state with the following 4 parameters:
 The parameters are also multiplied or divided by some factor of ten so that their final values end up
 being in a similar range to eachother
 
+Once the parameters are multiplied by the weights, the resultant integer is the number of frames the circle waits before performing another "flap"
+
 ## HOW TO COMPILE / RUN
 
 To run game, simply execute the included .jar file.
